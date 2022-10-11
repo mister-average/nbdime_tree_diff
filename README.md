@@ -1,6 +1,8 @@
 # nbdime_tree_diff
 Extension for classic jupyter allowing nbdiff-web between two notebooks in the file tree
 
+You need to have nbdime installed for this extension to work.
+
 **NOTE:** sorry, this won't work with JupyterHub
 
 Install like this:
