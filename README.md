@@ -10,6 +10,6 @@ pip install 'git+https://github.com/mister-average/nbdime_tree_diff.git
 jupyter nbextension install --py nbdime_tree_diff --sys-prefix
 jupyter nbextension enable --py nbdime_tree_diff --sys-prefix
 ```
-Refresh or restart your classic Jupyter tree interface, and there should be a new button named "DIFF two notebooks" which you can click after selecting exactly two notebooks in the same directory in your tree view.
+Refresh or restart your classic Jupyter tree interface, and there should be a new button named "**DIFF two notebooks**" which you can click after selecting exactly two notebooks in the same directory in your tree view:
 
 ![image.png](./README_images/screenshot.png)
