@@ -9,5 +9,6 @@ setup(
     author_email='mister_person@averageaddress.com',
     license='BSD',
     packages=find_packages(),
-    python_requires='>=3.4'
+    data_files=[('/static', ['main.js'])],
+    python_requires='>=3.6'
 )
