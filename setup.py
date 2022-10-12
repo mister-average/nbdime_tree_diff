@@ -8,7 +8,7 @@ setup(
     author='mister-average',
     author_email='mister_person@averageaddress.com',
     license='BSD',
-    packages=find_packages(),
-    data_files=[('/', ['nbdime_tree_diff/static/main.js'])],
+    packages=find_packages(include=['nbdime_tree_diff', 'nbdime_tree_diff.*']),
+    data_files=[('', ['nbdime_tree_diff/static/main.js'])],
     python_requires='>=3.6'
 )
