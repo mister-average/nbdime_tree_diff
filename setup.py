@@ -9,6 +9,6 @@ setup(
     author_email='mister_person@averageaddress.com',
     license='BSD',
     packages=find_packages(),
-    data_files=[('nbtime_tree_diff/static', ['main.js'])],
+    data_files=[('/', ['nbtime_tree_diff/static/main.js'])],
     python_requires='>=3.6'
 )
