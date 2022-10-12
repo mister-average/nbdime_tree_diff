@@ -10,7 +10,7 @@ setup(
     license='BSD',
     packages=find_packages(include=['nbdime_tree_diff', 'nbdime_tree_diff.*']),
     package_dir={'nbdime_tree_diff': 'nbdime_tree_diff/nbdime_tree_diff'},
-    packege_data={'nbdime_tree_diff':['static/main.js']},
+    package_data={'nbdime_tree_diff':['static/main.js']},
     #data_files=[('.', ['nbdime_tree_diff/static/main.js'])],
     python_requires='>=3.6'
 )
