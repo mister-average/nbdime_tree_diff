@@ -8,7 +8,7 @@ You need to have nbdime installed for this extension to work.
 Install like this:
 
 ```bash
-pip install 'git+https://github.com/mister-average/nbdime_tree_diff.git
+pip install 'git+https://github.com/mister-average/nbdime_tree_diff.git'
 jupyter nbextension install --py nbdime_tree_diff --sys-prefix
 jupyter nbextension enable --py nbdime_tree_diff --sys-prefix
 ```
